@@ -3,7 +3,7 @@
 Started studying networking fundamentals at HTB Academy.
 
 ## Topics
-- [] Introduction to Networks
+- [x] Introduction to Networks
 - [] Network Concepts
 - [] Components of a Network
 - [] Network Communication
