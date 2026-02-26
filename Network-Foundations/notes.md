@@ -99,3 +99,39 @@ implements two-way communication, but not simultaneous
 ## Full-duplex
 provides simultaneous two-way communication
 
+
+
+# Components of a Network
+
+## End Devices
+A device that sends and receives data on a network(computers and smart devices). 
+Allow users to seamlessly access network resources and services via wired and wireless connection.
+
+## Intermediary Devices
+Ensure the flow of data between end devices both within the local network and across different networks( routers, switches, modems, and access points)
+Connect networks and manage traffic to improve performance and reliability
+      
+   - ## Network Interface Cards (NICs)
+     A hardware device (card or adapter) that provides the physical connection of a computer to the network(has a unique MAC address)
+
+   - ## Routers
+     Forwarding data packets between networks and managing internet traffic.
+     Protocols: Open Shortest Path First (OSPF), Border Gateway Protocol (BGP)
+     Enhance security through the use of firewalls and access control lists
+
+   - ## Switches
+     A device that connects multiple computers and other equipment together within a single local area network (LAN).    
+     Use MAC addresses
+
+   - ## Hubs
+     Connects devices on a network and forwards incoming traffic to all ports simultaneously, without considering the specific recipient(antiquated).
+
+## Network Media and Software Components
+***Network media*** provide the pathways for data movement: information, converted into signals, travels along these physical routes from the sender to the receiver.
+- Wired: Ethernet cables, fiber-optic cables;
+- Wireless: Wi-Fi, Bluetooth
+***Software components*** A set of algorithms and syntactic rules that ensure correct interaction between network nodes. They govern the processes of encapsulation, addressing, switching, and data delivery at all stages.
+- Protocols: TCP/IP, HTTP, FTP
+
+## Servers
+This is a powerful computer that operates on a network and provides its resources or services to other computers — the clients.
