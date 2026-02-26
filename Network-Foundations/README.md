@@ -4,7 +4,7 @@ Started studying networking fundamentals at HTB Academy.
 
 ## Topics
 - [x] Introduction to Networks
-- [] Network Concepts
+- [x] Network Concepts
 - [] Components of a Network
 - [] Network Communication
 - [] Dynamic Host Configuration Protocol (DHCP)
