@@ -1,6 +1,7 @@
 # Port — This is a numerical identifier (from 0 to 65535) that allows the operating system to understand which specific application an incoming network packet should be delivered to.
 
 A single IP address (server) can simultaneously host a website, email, and file storage. Ports separate these data streams.
+It functions at the Transport Layer (Layer 4) of the OSI model and works with protocols such as TCP and UDP
 
 ## Port Categories:
 - ***System Ports (0–1023):*** Reserved for standard services (HTTP, FTP, SSH).
