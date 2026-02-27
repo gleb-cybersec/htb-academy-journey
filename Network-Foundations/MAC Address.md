@@ -3,6 +3,9 @@
 - What is it?
   - It is the "hardware" address of a device, operating at the Data Link layer (Layer 2) of the OSI model. It is necessary for data within a local network (Ethernet or Wi-Fi) to know exactly which physical port it needs to be delivered to.
 
+- Protocols:
+    - ***Address Resolution Protocol (ARP)*** - a protocol that maps IP addresses to MAC addresses. It allows a device to find out the physical address (MAC) of another device on the same network, knowing only its logical IP address 
+
 - Structure:
   - It typically consists of 48 bits (6 bytes) and is written in hexadecimal format, for example: 00:1A:2B:3C:4D:5E.
   - First 3 bytes (OUI): The manufacturer's identifier (e.g., Intel, Apple, Cisco).
