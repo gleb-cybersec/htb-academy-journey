@@ -1,7 +1,7 @@
 # IP Address (Internet Protocol) — This is the dynamic mailing address of a device on a network. It is a logical address that allows data to find its path between different networks across the globe.
 
 - What is it?
-  - An IP address operates at the Internet Layer (Layer 3) of the OSI model. It determines "where" a device is located within a global or local hierarchy.
+  - An IP address operates at the Internet Layer (Layer 3) of the OSI model. It determines "where" a device is located within a global or local hierarchy, they can change and are assigned based on the network topology and policies
 
 - There are two main standards:
   - **IPv4:** The classic format (e.g., 192.168.1.15). It consists of 32 bits, divided into 4 octets. The number of combinations is limited (about 4.3 billion), which is why addresses are "running out."
