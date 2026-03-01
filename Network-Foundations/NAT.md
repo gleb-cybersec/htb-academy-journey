@@ -20,3 +20,13 @@ NAT is both an obstacle and a point of manipulation for a security researcher.
   - ***NAT Detection:*** Pentesters use analysis of TTL (Time to Live) values or specific packet headers to try and determine how many devices might be hidden behind a single public IP address.
   - ***Bypassing NAT (NAT Traversal):*** Techniques like STUN/TURN or UDP Hole Punching allow two devices behind different NATs to establish direct communication. Attackers may use this to maintain communication with malware.
   - ***Attacks on the Translation Table:*** Flooding a router with a massive number of requests can overflow its NAT table, leading to a Denial of Service (DoS) for the entire local network.
+
+
+
+## RFC 1918 specifies private IP ranges
+
+Class|	Address Range               |	Mask (CIDR) |	Number of Addresses |	Where Typically Used
+A	   |10.0.0.0 — 10.255.255.255     |	/8	        |~16.7 million	      |Large corporations
+B	   |172.16.0.0 — 172.31.255.255   |	/12	        |~1 million	          |Medium-sized networks, VPNs
+C	   |192.168.0.0 — 192.168.255.255 |	/16	        |65,536	              |Small offices, home networks
+
