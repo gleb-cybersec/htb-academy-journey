@@ -11,7 +11,7 @@ Started studying networking fundamentals at HTB Academy.
 - [x] Network Address Translation (NAT)
 - [x] Domain Name System (DNS)
 - [x] Internet Architecture
-- [] Wireless Networks
+- [x] Wireless Networks
 - [] Network Security
 - [] Data Flow Example
 - [] Skills Assessment
