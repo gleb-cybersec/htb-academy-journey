@@ -97,3 +97,19 @@ Cloud computing has changed the rules of engagement for security testing. Pentes
   - **Shared Responsibility Model:** The cloud provider is responsible for the security of the cloud (physical hardware, data centers). The customer is responsible for security in the cloud (their data, configurations, user access). Attackers focus on the customer's side of this model.
   - **Serverless Attacks:** Attacking serverless functions (e.g., AWS Lambda). While there is no traditional server to exploit, attackers can manipulate the function's logic by injecting malicious input data.
   - **Container Escape:** Attempting to break out of a virtual machine or container (like Docker or Kubernetes) to gain access to the host hypervisor or other customers' environments.
+
+
+## Software-Defined Networking (SDN) — This is a modern approach to computer networking that separates the network's "brains" (the control plane) from its "muscles" (the data plane).
+In a traditional network, each router or switch makes its own decisions about where to forward packets. In SDN, a central controller is responsible for this, and the network devices simply execute its commands.
+
+- What is it?
+SDN divides the architecture into three layers:
+  - **Infrastructure Layer (Data Plane):** The physical or virtual switches that simply forward traffic according to the rules they receive.
+  - **Control Layer (Control Plane):** The "brain" – a software-based controller that has a holistic view of the entire network.
+  - **Application Layer:** Programs that manage and manipulate the network, such as load balancers, firewalls, and network monitoring tools.
+
+- Why is it important?
+  - ***Flexibility:*** An administrator can change the topology of the entire network with a single software command, without needing to physically re-cable servers.
+  - ***Automation:*** The network can automatically scale up or down based on current load, similar to cloud computing principles.
+  - ***Centralization:*** Security policies and configurations can be applied to thousands of devices from a single, centralized management interface.
+  - ***Reduced Costs:*** It allows for the use of simpler, cheaper "white box" switches because the complex logic resides in the centralized software controller.
