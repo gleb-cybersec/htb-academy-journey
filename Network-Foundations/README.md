@@ -5,12 +5,12 @@ Started studying networking fundamentals at HTB Academy.
 ## Topics
 - [x] Introduction to Networks
 - [x] Network Concepts
-- [] Components of a Network
-- [] Network Communication
-- [] Dynamic Host Configuration Protocol (DHCP)
-- [] Network Address Translation (NAT)
-- [] Domain Name System (DNS)
-- [] Internet Architecture
+- [x] Components of a Network
+- [x] Network Communication
+- [x] Dynamic Host Configuration Protocol (DHCP)
+- [x] Network Address Translation (NAT)
+- [x] Domain Name System (DNS)
+- [x] Internet Architecture
 - [] Wireless Networks
 - [] Network Security
 - [] Data Flow Example
