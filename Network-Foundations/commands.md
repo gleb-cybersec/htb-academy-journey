@@ -1,2 +1,4 @@
 - getmac (returns the media access control (MAC) address and list of network protocols)
 - netstat (displays active TCP connections, ports on which the computer is listening)
+- ifconfig ( tool is used to configure network interfaces and display their current status)
+  - ifconfig -a (will display all interfaces, including those that are currently down) 
