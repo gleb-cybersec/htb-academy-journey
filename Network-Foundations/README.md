@@ -12,6 +12,6 @@ Started studying networking fundamentals at HTB Academy.
 - [x] Domain Name System (DNS)
 - [x] Internet Architecture
 - [x] Wireless Networks
-- [] Network Security
+- [x] Network Security
 - [] Data Flow Example
 - [] Skills Assessment
