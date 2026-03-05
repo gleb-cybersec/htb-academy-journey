@@ -7,3 +7,5 @@
 - ping (networking utility used to test the reachability of a host on a network)
   - ping -c 4 <ip> (sending four pings towards our target)
 - nmap <ip> - (tool we can use to determine the open ports on a remote machine)
+  - -sC and -sV (options to our scan, this will allow nmap to determine the version of whatever program is listening on a given port, as well as additional information)
+- nc <ip> <port> (is a computer networking utility for reading from and writing to network connections using TCP or UDP)
