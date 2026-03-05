@@ -49,3 +49,24 @@ The client-server architecture is the main "playground" for attacks. Most hacks 
 - 3.***Broken Authentication:*** If the server does a poor job of verifying a client's "identity," a pentester can hijack another user's session and access their private account without a password.
   - **Interception of Communication:** Attacking the data in transit between the client and server (e.g., through Man-in-the-Middle attacks) if the connection is not properly encrypted.
 - 4.***Separation of Responsibilities:*** Pentesters always check where data validation occurs. If password checks or price verification for an item happen only on the client side (in the browser), they can be easily tampered with before being sent to the server.
+
+
+
+## Hybrid Architecture — This is a network model that combines features of both the client-server architecture and P2P. In it, central servers are used for management, search, or authentication, while the main data transfer or computations happen directly between nodes (clients).
+
+- What is it?
+In a hybrid scheme, there is a "main headquarters" (the server) and "field agents" (the nodes).
+  1. ***The Server Part:*** Stores a directory of resources, file indexes, or information about who is currently online.
+  2. ***The P2P Part:*** Once one node finds another via the server, they begin exchanging data directly, without burdening the central server.
+
+- Why is it important?
+  - **Best of Both Worlds:** The speed and order provided by servers, combined with the scalability and bandwidth savings of P2P.
+  - **Reduced Load:** Companies don't need to download terabytes of updates to every single user from their own servers; users help each other by downloading pieces of files from their peers.
+  - **Fast Discovery:** Unlike pure P2P networks, where searching for a file can take a long time, here the server instantly tells you which peer has the resource you need.
+
+- Why is it relevant for pentesting?
+Hybrid systems are complex targets because they expand the "attack surface." A pentester looks for weaknesses in both components:
+  1. ***Attacking "Supernodes":*** In some hybrid networks, powerful user computers act as temporary mini-servers or indexes. If such a supernode is compromised, an attacker can control or monitor the traffic of hundreds of other participants.
+  2. ***Index Manipulation:*** If a pentester can tamper with the data on the central server (e.g., through a web application vulnerability), they could trick thousands of clients into connecting to a malicious peer for "updates," spreading malware.
+  3. ***Bypassing Corporate Policies:*** Hybrid applications (like Skype or Spotify in their early days) often use unconventional methods to traverse firewalls, potentially creating unintended holes in the network perimeter's security.
+  4. ***Analysis of Signaling Traffic:*** By studying how a client communicates with the central server before switching to direct P2P mode, an attacker might intercept IP addresses and metadata of network participants that are otherwise hidden behind NAT.
