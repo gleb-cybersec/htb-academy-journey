@@ -4,3 +4,6 @@
   - netstat -tulnp4 (displays a list of all open or listening TCP and UDP ports for IPv4 in the format "IP:PORT")
 - ifconfig ( tool is used to configure network interfaces and display their current status)
   - ifconfig -a (will display all interfaces, including those that are currently down) 
+- ping (networking utility used to test the reachability of a host on a network)
+  - ping -c 4 <ip> (sending four pings towards our target)
+- nmap <ip> - (tool we can use to determine the open ports on a remote machine)
