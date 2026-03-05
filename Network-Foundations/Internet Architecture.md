@@ -70,3 +70,30 @@ Hybrid systems are complex targets because they expand the "attack surface." A p
   2. ***Index Manipulation:*** If a pentester can tamper with the data on the central server (e.g., through a web application vulnerability), they could trick thousands of clients into connecting to a malicious peer for "updates," spreading malware.
   3. ***Bypassing Corporate Policies:*** Hybrid applications (like Skype or Spotify in their early days) often use unconventional methods to traverse firewalls, potentially creating unintended holes in the network perimeter's security.
   4. ***Analysis of Signaling Traffic:*** By studying how a client communicates with the central server before switching to direct P2P mode, an attacker might intercept IP addresses and metadata of network participants that are otherwise hidden behind NAT.
+
+
+
+## Cloud Architecture — This is a model for delivering IT resources (servers, storage, databases, networks, and software) over the internet on demand. Instead of owning physical hardware, companies rent virtual capacities from providers like AWS, Azure, or Google Cloud.
+
+- What is it?
+The cloud consists of massive data centers whose resources are programmatically divided among thousands of users.
+
+  - Main Service Models:
+    - ***IaaS (Infrastructure as a Service):*** Renting "bare" computing, storage, and networking resources (e.g., AWS EC2). You are responsible for installing and managing the operating system and software.
+    - ***PaaS (Platform as a Service):*** A ready-made environment for developers (e.g., Google App Engine, Heroku). You just write and deploy your code; the cloud provider manages the underlying infrastructure.
+    - ***SaaS (Software as a Service):*** Ready-to-use applications accessible via a browser (e.g., Google Drive, Microsoft 365, Salesforce).
+
+- Why is it important?
+  - **Scalability:** If a website experiences a sudden surge in traffic, the cloud can automatically allocate additional resources to handle the load.
+  - **Cost Efficiency (Pay-as-you-go):** You only pay for the computing time, storage, and bandwidth you actually consume.
+  - **Accessibility:** Data and applications are accessible from anywhere in the world with an internet connection.
+  - **Deployment Speed:** A new virtual server can be created in the cloud in seconds or minutes, compared to the weeks it might take to procure and set up physical hardware.
+
+- Why is it relevant for pentesting?
+Cloud computing has changed the rules of engagement for security testing. Pentesters now need to look not only for flaws in the application code but also for misconfigurations in the cloud environment itself.
+
+  - **Misconfigurations:** This is the most common cause of cloud data breaches. For example, an S3 storage bucket (AWS) containing sensitive customer data is accidentally left open to the public internet.
+  - **Identity and Access Management (IAM):** In the cloud, permissions and access rights define the new security perimeter. If a pentester steals an API key belonging to a developer that has excessive privileges, they could gain control over the company's entire cloud infrastructure.
+  - **Shared Responsibility Model:** The cloud provider is responsible for the security of the cloud (physical hardware, data centers). The customer is responsible for security in the cloud (their data, configurations, user access). Attackers focus on the customer's side of this model.
+  - **Serverless Attacks:** Attacking serverless functions (e.g., AWS Lambda). While there is no traditional server to exploit, attackers can manipulate the function's logic by injecting malicious input data.
+  - **Container Escape:** Attempting to break out of a virtual machine or container (like Docker or Kubernetes) to gain access to the host hypervisor or other customers' environments.
