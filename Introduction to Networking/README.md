@@ -3,7 +3,7 @@
 Started studying introduction to networking at HTB Academy.
 
 ## Topics
-- [] Networking Overview
+- [x] Networking Overview
 - [] Network Types
 - [] Networking Topologies
 - [] Proxies
