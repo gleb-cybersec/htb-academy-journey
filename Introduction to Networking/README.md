@@ -4,8 +4,8 @@ Started studying introduction to networking at HTB Academy.
 
 ## Topics
 - [x] Networking Overview
-- [] Network Types
-- [] Networking Topologies
+- [x] Network Types
+- [x] Networking Topologies
 - [] Proxies
 - [] Networking Models
 - [] The OSI Model
