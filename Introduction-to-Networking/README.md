@@ -10,7 +10,7 @@ Started studying introduction to networking at HTB Academy.
 - [X] Networking Models
 - [X] The OSI Model
 - [X] The TCP/IP Model
-- [] Network Layer
+- [X] Network Layer
 - [] IP Addresses
 - [] Subnetting
 - [] MAC Addresses
