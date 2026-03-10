@@ -7,9 +7,9 @@ Started studying introduction to networking at HTB Academy.
 - [x] Network Types
 - [x] Networking Topologies
 - [x] Proxies
-- [] Networking Models
-- [] The OSI Model
-- [] The TCP/IP Model
+- [X] Networking Models
+- [X] The OSI Model
+- [X] The TCP/IP Model
 - [] Network Layer
 - [] IP Addresses
 - [] Subnetting
